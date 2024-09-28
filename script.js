@@ -142,6 +142,7 @@ for (let i = 0; i < cities.length; i++) {
         console.log(`${key}:`, value);
     }
 }
+
 weatherData.Tbilisi.temperature.current = 27;
 console.log(weatherData.Tbilisi.temperature.current);
 weatherData.Tbilisi.pollutionLevel = "Moderate";
